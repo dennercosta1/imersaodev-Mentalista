@@ -1,0 +1,121 @@
+:root {
+  
+  --color-third: #1E90FF;
+
+  --color-black-first:#00FFFF
+}
+body{
+  background-image:    url(https://wallpaperaccess.com/full/85327.png);
+ background-repeat: no-repeat;
+  background-size: 100%;
+  url('https://image.flaticon.com/icons/png/512/201/201635.png');
+  background-position:100%;
+  background-color:#262c3a;
+  background-repeat: no-repeat;
+  }
+
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  margin: 3 3 3px;
+  font-size: 53px;
+ font-family: 'Creepster', cursive; cursive;
+  font-weight: bold;
+  color:#26acd0;
+  background-clip: text;
+  text-shadow:  
+  0 0 0.2em #000000,
+  0 0 0.2em #000000,
+  0 0 0.4em #000000;
+  -webkit-background-clip: text;
+  -webkit-text-stroke-width: 0.5px; 
+  -webkit-text-stroke-color: #c4e46b;
+ }
+
+.page-subtitle {
+  color:#26acd0;
+  font-size:30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 
+  0 0 0.2em #000000,
+  0 0 0.2em #000000,
+  0 0 0.4em #000000;
+ -webkit-text-stroke-width: 0.5px; 
+ -webkit-text-stroke-color: #c4e46b;
+margin-top: 0px;
+  }
+input {
+  font-family: 'Lobster', cursive;
+  color:black;
+   width: 200px;
+  height: 40px;
+  border-radius: 0;
+  border: 6px solid var;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+}
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.page-logo{
+   width: 180px;
+  position: absolute;
+  top: 10px;
+ left: 10px;
+
+}
+button {
+  width: 300px;
+  height: 45px;
+  font-family: inherit;
+  color: black;
+      border-radius: 0;
+  border: none;
+  background-color: var(--color-third);
+  font-size: 22px;
+  box-shadow: 5px 5px #111111;
+   transition: background 300ms ease-in-out;
+   z-index: 1;
+  -webkit-transition: color 150ms ease-in-out;
+  transition: color 150ms ease-in-out
+  overflow: hidden;
+    
+}
+ 
+
+button:hover{
+   border-color: #87CEFA;
+  color:blue;
+  background-image: -webkit-linear-gradient(45deg, #87CEFA 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #87CEFA 50%, transparent 50%);
+  background-position: 100%;
+  background-size: 400%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 600ms ease-in-out;
+}
+button:hover:after {
+  width: 110%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:#63B8FF;
+  border: 6px solid var(--color-black-first);
+  color: var(--color-second);
+  width: 550px;
+  height: 380px;
+  margin: 180px auto;
+   }
+
+
